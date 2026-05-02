@@ -252,18 +252,6 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.74369
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9110203
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.74369
-      objectReference: {fileID: 0}
-    - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -314,43 +302,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 244015500}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
 --- !u!224 &244015498 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
   m_PrefabInstance: {fileID: 244015497}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &244015499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
-  m_PrefabInstance: {fileID: 244015497}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &244015500
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244015499}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40d105e86d41cbb4ca9b246db48c0d30, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &391454138
 GameObject:
   m_ObjectHideFlags: 0
