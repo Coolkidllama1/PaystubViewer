@@ -219,6 +219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toggle2
       objectReference: {fileID: 0}
+    - target: {fileID: 6807825096743356663, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 391454142}
     - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -302,7 +306,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2041092656}
+    - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2041092655}
   m_SourcePrefab: {fileID: 100100000, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
 --- !u!224 &244015498 stripped
 RectTransform:
@@ -320,6 +330,7 @@ GameObject:
   - component: {fileID: 391454141}
   - component: {fileID: 391454140}
   - component: {fileID: 391454139}
+  - component: {fileID: 391454142}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -388,6 +399,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391454142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391454138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19a7d3f109f40a488c98cba4371e15c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Data
+  textSize: {fileID: 449981219}
+  textSizeTxt: {fileID: 1672760801}
+  ipInputField: {fileID: 501809387}
+  portInputField: {fileID: 2087362473}
+  method: 0
+  methodText: {fileID: 1919445430}
+  sceneToGoTo: 0
+  sceneText: {fileID: 1578896333}
+  goBtn: {fileID: 1412737105}
+  soPaystub: {fileID: 11400000, guid: 1a8415bfb5594934da3a8b7c3bd207f4, type: 2}
+  globalSettings: {fileID: 11400000, guid: 11826f8f00bfd4149811d1f4ccb8f0f3, type: 2}
+  textsToChangeSizeOf:
+  - {fileID: 1672760801}
+  - {fileID: 1892590862}
+  - {fileID: 826996054}
+  - {fileID: 874425208}
+  - {fileID: 472529144}
+  - {fileID: 2132002448}
+  - {fileID: 1919445430}
+  - {fileID: 486958732}
+  - {fileID: 1578896333}
+  - {fileID: 1826423701}
 --- !u!1 &449981217
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +522,19 @@ MonoBehaviour:
   m_Value: 36
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 391454142}
+        m_TargetAssemblyTypeName: Data, Assembly-CSharp
+        m_MethodName: ChangeTextSizes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &472529142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1739,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1412737106}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 391454142}
+        m_TargetAssemblyTypeName: Data, Assembly-CSharp
+        m_MethodName: GoClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1412737106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1733,7 +1802,7 @@ GameObject:
   - component: {fileID: 1578896334}
   - component: {fileID: 1578896333}
   m_Layer: 5
-  m_Name: go to (1)
+  m_Name: sceneToGoTo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2504,6 +2573,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -2613,6 +2683,49 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976696597}
+  m_CullTransparentMesh: 1
+--- !u!1 &2041092652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+  m_PrefabInstance: {fileID: 244015497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041092655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041092652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2041092656
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041092652}
   m_CullTransparentMesh: 1
 --- !u!1 &2087362471
 GameObject:
@@ -2941,6 +3054,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toggle
       objectReference: {fileID: 0}
+    - target: {fileID: 6807825096743356663, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 391454142}
+    - target: {fileID: 6807825096743356663, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      propertyPath: amIMethod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7539983468285464939, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3040,6 +3161,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6202686218028465712}
+    - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6202686218028465715}
+    - targetCorrespondingSourceObject: {fileID: 5758973615189118108, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6202686218028465714}
   m_SourcePrefab: {fileID: 100100000, guid: a1620fc2030f5a940b8a01dca693ddab, type: 3}
 --- !u!224 &6202686218028465710 stripped
 RectTransform:
@@ -3073,6 +3200,44 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6202686218028465714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6202686218028465711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &6202686218028465715
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6202686218028465711}
+  m_CullTransparentMesh: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

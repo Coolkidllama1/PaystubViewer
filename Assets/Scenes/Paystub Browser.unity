@@ -1440,6 +1440,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3951,6 +3952,7 @@ GameObject:
   - component: {fileID: 1088213950}
   - component: {fileID: 1088213949}
   - component: {fileID: 1088213948}
+  - component: {fileID: 1088213951}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -4019,6 +4021,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088213951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088213947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79c0aac10427084ca20adbde817b03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NodeSpawner
+  settings: {fileID: 11400000, guid: 11826f8f00bfd4149811d1f4ccb8f0f3, type: 2}
+  soPaystub: {fileID: 11400000, guid: 1a8415bfb5594934da3a8b7c3bd207f4, type: 2}
+  nodePrefab: {fileID: 3704971750711850400, guid: ba6f793b90f6111409d29a178cd8fdef, type: 3}
+  contentObject: {fileID: 487212319}
 --- !u!1 &1161621246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6429,6 +6447,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -6607,7 +6626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2027840504
 RectTransform:
   m_ObjectHideFlags: 0

@@ -8,6 +8,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4301377725505998293}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToFullView
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PaystubBrowserNode, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3005751470979441931, guid: 09bdea577198c234694aa9b62624a539, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -100,6 +128,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4301377725505998293}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CopyAdviceNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PaystubBrowserNode, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6706624057504763684, guid: 09bdea577198c234694aa9b62624a539, type: 3}
       propertyPath: m_Name
       value: PaystubNode Variant
@@ -107,5 +163,99 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6706624057504763684, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4301377725505998293}
   m_SourcePrefab: {fileID: 100100000, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+--- !u!114 &461194837755874690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7502571895834720006, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!1 &3704971750711850400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6706624057504763684, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4301377725505998293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3704971750711850400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17c07fc178d76344fb7f000455e39ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaystubBrowserNode
+  adviceNumber: {fileID: 461194837755874690}
+  hoursWorked: {fileID: 4000468280413862911}
+  payDate: {fileID: 7650103923610049321}
+  payRecieved: {fileID: 6043639052475061008}
+  viewDetails: {fileID: 7014326507577240239}
+  copyAdviceNumber: {fileID: 6037506938465079799}
+  settings: {fileID: 0}
+  soPaystub: {fileID: 0}
+--- !u!114 &4000468280413862911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6484206641165713787, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &6037506938465079799 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4445487912159193971, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &6043639052475061008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4442610352577063316, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &7014326507577240239 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1094348230761582635, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &7650103923610049321 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 311491497855361453, guid: 09bdea577198c234694aa9b62624a539, type: 3}
+  m_PrefabInstance: {fileID: 7960115783753824900}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI

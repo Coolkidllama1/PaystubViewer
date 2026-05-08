@@ -1,0 +1,89 @@
+{
+  "adviceNumber": "6535994",
+  "payDate": "2026-04-15 00:00:00",
+  "payPeriodStart": "03/25/2026",
+  "payPeriodEnd": "04/07/2026",
+  "grossPayCurrent": "$856.91",
+  "grossPayYTD": "$5,878.70",
+  "netPayCurrent": "$767.59",
+  "netPayYTD": "$5,310.23",
+  "taxDeductionsCurrent": "$89.32",
+  "taxDeductionsYTD": "$568.47",
+  "otherDeductionsCurrent": "$0.00",
+  "otherDeductionsYTD": "$0.00",
+  "earningsDetail": [
+    {
+      "description": "Reg Hours-1112",
+      "rate": "$12.5",
+      "hours": "64.73",
+      "current": "$809.13",
+      "ytd": "$0.00"
+    },
+    {
+      "description": "Paid Tips-1112",
+      "rate": "",
+      "hours": "",
+      "current": "$47.78",
+      "ytd": "$0.00"
+    },
+    {
+      "description": "Paid Tips YTD",
+      "rate": "",
+      "hours": "",
+      "current": "$0.00",
+      "ytd": "$330.39"
+    },
+    {
+      "description": "Reg Hours YTD",
+      "rate": "",
+      "hours": "",
+      "current": "$0.00",
+      "ytd": "$5,548.31"
+    },
+    {
+      "description": "Cash Tips YTD",
+      "rate": "",
+      "hours": "",
+      "current": "$0.00",
+      "ytd": "$5.00"
+    }
+  ],
+  "deductionsDetail": [
+    {
+      "description": "OASDI/EE",
+      "current": "$50.17",
+      "ytd": "$344.00"
+    },
+    {
+      "description": "MED/EE",
+      "current": "$11.73",
+      "ytd": "$80.45"
+    },
+    {
+      "description": "OASDItipEE",
+      "current": "$2.96",
+      "ytd": "$20.79"
+    },
+    {
+      "description": "Fed Withholdng",
+      "current": "$23.77",
+      "ytd": "$118.37"
+    },
+    {
+      "description": "Med/EE/tip",
+      "current": "$0.69",
+      "ytd": "$4.86"
+    },
+    {
+      "description": "GA Withholdng",
+      "current": "$0.00",
+      "ytd": "$0.00"
+    }
+  ],
+  "distributions": [
+    {
+      "description": "XXXXXX1507",
+      "current": "$767.59"
+    }
+  ]
+}
